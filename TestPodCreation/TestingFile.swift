@@ -5,20 +5,14 @@
 //  Created by Abdul on 19/12/2019.
 //  Copyright © 2019 Abdul. All rights reserved.
 //
+import Foundation
 
 
-
-public final class TestPodCreation {
+public class TestPodCreation {
 
     let name = "TestPodCreation"
-    static public var test = TestPodCreation()
     
-    
-    public init()
-    {
-        
-    }
-    
+    static var manager = TestPodCreation()
     
     public func add(a: Int, b: Int) -> Int {
         return a + b
