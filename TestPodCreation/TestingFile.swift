@@ -13,6 +13,13 @@ public final class TestPodCreation {
     let name = "TestPodCreation"
     static public var test = TestPodCreation()
     
+    
+    public init()
+    {
+        
+    }
+    
+    
     public func add(a: Int, b: Int) -> Int {
         return a + b
     }
