@@ -7,12 +7,15 @@
 //
 import Foundation
 
-
-public class TestPodCreation {
+ class TestPodCreation {
 
     let name = "TestPodCreation"
     
     static var manager = TestPodCreation()
+    
+    init() {
+        
+    }
     
     public func add(a: Int, b: Int) -> Int {
         return a + b
